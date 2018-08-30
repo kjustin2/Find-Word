@@ -1,0 +1,115 @@
+java Assig32
+Please enter grid filename:
+sample4.txt
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+s d d a e f r h e f o o
+a b c z z f o e z o o g
+a b a e i f d z i j k l
+a b c d s f e i s j k l
+a b c d f f n s f j k l
+a b c d u o t o f j k l
+a b c d a o s o a j k l
+
+Please enter phrase (sep. by single spaces):
+rodents
+Looking for: rodents
+containing 1 words
+The phrase: rodents
+was found:
+rodents: (2,6) to (8,6)
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+s d d a e f R h e f o o
+a b c z z f O e z o o g
+a b a e i f D z i j k l
+a b c d s f E i s j k l
+a b c d f f N s f j k l
+a b c d u o T o f j k l
+a b c d a o S o a j k l
+
+Please enter phrase (sep. by single spaces):
+rodents of size
+Looking for: rodents of size
+containing 3 words
+The phrase: rodents of size
+was found:
+rodents: (2,6) to (8,6)
+of: (7,7) to (6,8)
+size: (5,8) to (2,8)
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+s d d a e f R h E f o o
+a b c z z f O e Z o o g
+a b a e i f D z I j k l
+a b c d s f E i S j k l
+a b c d f f N s F j k l
+a b c d u o T O f j k l
+a b c d a o S o a j k l
+
+Please enter phrase (sep. by single spaces):
+rodents of size foo
+Looking for: rodents of size foo
+containing 4 words
+The phrase: rodents of size foo
+was found:
+rodents: (2,6) to (8,6)
+of: (7,7) to (6,8)
+size: (5,8) to (2,8)
+foo: (2,9) to (2,11)
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+s d d a e f R h E F O O
+a b c z z f O e Z o o g
+a b a e i f D z I j k l
+a b c d s f E i S j k l
+a b c d f f N s F j k l
+a b c d u o T O f j k l
+a b c d a o S o a j k l
+
+Please enter phrase (sep. by single spaces):
+rodents of size adds bad
+Looking for: rodents of size adds bad
+containing 5 words
+The phrase: rodents of size adds bad
+was found:
+rodents: (2,6) to (8,6)
+of: (7,5) to (6,4)
+size: (5,4) to (2,4)
+adds: (2,3) to (2,0)
+bad: (3,1) to (5,3)
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+S D D A E f R h e f o o
+a B c z Z f O e z o o g
+a b A e I f D z i j k l
+a b c D S f E i s j k l
+a b c d F f N s f j k l
+a b c d u O T o f j k l
+a b c d a o S o a j k l
+
+Please enter phrase (sep. by single spaces):
+rodents of bad
+Looking for: rodents of bad
+containing 3 words
+The phrase: rodents of bad
+was not found
+
+Please enter phrase (sep. by single spaces):
+bad
+Looking for: bad
+containing 1 words
+The phrase: bad
+was found:
+bad: (3,1) to (5,3)
+a b c d s i z e i j k l
+a z i s l i s l j k l a
+s d d a e f r h e f o o
+a B c z z f o e z o o g
+a b A e i f d z i j k l
+a b c D s f e i s j k l
+a b c d f f n s f j k l
+a b c d u o t o f j k l
+a b c d a o s o a j k l
+
+Please enter phrase (sep. by single spaces):
